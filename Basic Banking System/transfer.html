@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TSF-Money Transfer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <a href="#"><img src="logo.png" class="logo" alt=""></a>
+
+        <h1>Money Transfer</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="account.html">Accounts</a></li>
+                <li><a href="transaction.html">Transactions</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a class="active"  href="transfer.html">Money Transfer</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="transfer-form">
+        <form id="moneyTransferForm">
+            <label for="fromAccount">From Account:</label>
+            <select id="fromAccount" name="fromAccount">
+                <option value="account1">My Account</option>
+            </select>
+            <label for="toAccount">To Account:</label>
+            <select id="toAccount" name="toAccount">
+                <option value="account1">Select Receiver Account</option>
+                <option value="account2">Aayush Paigwar</option>
+                <option value="account3">Vatsalya Sharma</option>
+                <option value="account4">Asangita Mahala</option>
+                <option value="account5">Imila Maheshan</option>
+                <option value="account6">Vaishnavi Nambir</option>
+                <option value="account7">Nikita Ptil</option>
+                <option value="account8">Ramazan Tiktur</option>
+                <option value="account9">Vishal Dhuriya</option>
+                <option value="account10">Somesh Sahu</option>
+                <!-- Add more account options here -->
+            </select>
+            <label for="amount">Amount:</label>
+            <input type="number" id="amount" name="amount" required>
+            <button type="submit">Transfer</button>
+        </form>
+    </section>
+    <section class="transfer-status">
+        <h2>Transfer Status:</h2>
+        <p id="transferResult"></p>
+    </section>
+    <footer>
+        <p>&copy; 2023 TSF</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

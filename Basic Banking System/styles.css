@@ -1,0 +1,310 @@
+/* HOMEPAGE CSS*/
+/* Reset some default styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and text color for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c8ebeb;
+    color: #93ccf0;
+}
+
+/* Style the header with navigation links */
+header {
+    background-color: #333;
+    
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    top: 0;
+    left: 0;
+}
+h1{
+    text-align: center;
+    
+}
+.logo{
+    width: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+nav ul li a {
+    color: white;
+}
+
+
+/* Style the hero section with a welcome message */
+.hero {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* Style the call-to-action button */
+.cta-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* ACCOUNT CSS*/
+/* Your CSS styles go here */
+/* Reset some default styles */
+body, h1, h2, p, ul, li, table, th, td, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and text color for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Style the header with navigation links */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+nav li a:hover,
+nav li a.active,
+nav li i.active{
+    color: #bab9b9;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #f0f0f0;
+    transition: 0.3ms ease;
+}
+
+/* Style account details and transaction history sections */
+.account-details,
+.transaction-history {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.account-details h2,
+.transaction-history h2 {
+    margin-bottom: 20px;
+}
+
+/* Style the transaction history table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* TRANSACTION CSS */
+/* Your CSS styles go here */
+/* Reset some default styles */
+body, h1, h2, ul, li, table, th, td, a {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and text color for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Style the header with navigation links */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Style the transaction history section */
+.transaction-history {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.transaction-history h2 {
+    margin-bottom: 20px;
+}
+
+/* Style the transaction history table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table th,
+table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+/* TRANSFER CSS */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.transfer-form {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+select,
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.transfer-status {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
